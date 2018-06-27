@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'dashboard',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -139,7 +140,7 @@ STATICFILES_DIRS = [
     #'/var/www/static/',
 ]
 
-STATIC_URL= os.path.join(BASE_DIR, "static_cdn")
+STATIC_URL= os.path.join(BASE_DIR, "/static/")
 
 # PROJECT_ROOT = os.path.dirname(os.path.abspath())
 STATIC_ROOT = os.path.join(".", 'static')

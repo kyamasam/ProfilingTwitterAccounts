@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Social Spider</title>
+    <!-- plugins:css -->
+    {% load static %}
+    <link rel="stylesheet" href="/static/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="/static/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="/static/vendors/css/vendor.bundle.addons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.3.20/plyr.css">
+
+
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="/static/images/spider.png" />
+
+</head>
+<body>
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    {% include 'dashboard/layouts/navigation.html' %}
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:partials/_settings-panel.html -->
+      <div id="settings-trigger"><i class="mdi mdi-format-color-fill"></i></div>
+      <div id="theme-settings" class="settings-panel">
+        <i class="settings-close mdi mdi-close"></i>
+        <p class="settings-heading">SIDEBAR SKINS</p>
+        <div class="sidebar-bg-options selected" id="sidebar-default-theme"><div class="img-ss rounded-circle bg-light border mr-3"></div>Default</div>
+        <div class="sidebar-bg-options" id="sidebar-dark-theme"><div class="img-ss rounded-circle bg-dark border mr-3"></div>Dark</div>
+        <p class="settings-heading mt-2">HEADER SKINS</p>
+        <div class="color-tiles mx-0 px-4">
+          <div class="tiles primary"></div>
+          <div class="tiles success"></div>
+          <div class="tiles warning"></div>
+          <div class="tiles danger"></div>
+          <div class="tiles info"></div>
+          <div class="tiles dark"></div>
+          <div class="tiles default light"></div>
+        </div>
+      </div>
+      <!-- partial -->
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item {% if request.path == '/dashboard/' %}active{% endif %}">
+            <a class="nav-link" href="/dashboard/">
+              <i class="mdi mdi-home-outline menu-icon"></i>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+
+
+           <li class="nav-item {% if request.path == '/dashboard/companies/' %}active{% endif %}">
+            <a class="nav-link " data-toggle="collapse" href="#companies" aria-expanded="true" aria-controls="mentions">
+              <i class="mdi mdi-bank menu-icon"></i>
+              <span class="menu-title">Influential Companies</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse{% if request.path == '/dashboard/companies/' %} show{% endif %}" id="companies">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link {% if request.path == '/dashboard/companies/' %}active{% endif %}" href="/dashboard/companies/">Influential Companies</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Pdf report</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Excel Report</a></li>
+
+              </ul>
+            </div>
+          </li>
+
+
+
+
+           <li class="nav-item {% if request.path == '/dashboard/user_search/' %}active{% endif %}">
+            <a class="nav-link " data-toggle="collapse" href="#search" aria-expanded="true" aria-controls="search">
+              <i class="mdi mdi-account-search menu-icon"></i>
+              <span class="menu-title">Search </span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse{% if request.path == '/dashboard/user_search/' %} show{% endif %}" id="search">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link {% if request.path == '/dashboard/user_search/' %}active{% endif %}" href="/dashboard/user_search/">Search Users </a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Pdf report</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Excel Report</a></li>
+
+              </ul>
+            </div>
+          </li>
+
+
+
+          <li class="nav-item {% if request.path == '/dashboard/users/' %}active{% endif %}  ">
+            <a class="nav-link" href="/dashboard/users/">
+              <i class="mdi mdi-account-multiple-outline menu-icon"></i>
+              <span class="menu-title ">Influential Users</span>
+                <!-- watch -company tweets-->
+            </a>
+          </li>
+        <li class="nav-item {% if request.path == '/dashboard/mentions/' %}active{% endif %}">
+            <a class="nav-link " data-toggle="collapse" href="#mentions" aria-expanded="true" aria-controls="mentions">
+              <i class="mdi mdi-chart-line menu-icon"></i>
+              <span class="menu-title">Mentions</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse{% if request.path == '/dashboard/mentions/' %} show{% endif %}" id="mentions">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link {% if request.path == '/dashboard/mentions/' %}active{% endif %}" href="/dashboard/mentions/">Mentions</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Pdf report</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Excel Report</a></li>
+
+              </ul>
+            </div>
+          </li>
+
+
+           <li class="nav-item {% if request.path == '/dashboard/watch/' %}active{% endif %}">
+            <a class="nav-link" href="/dashboard/watch/">
+              <i class="mdi mdi-watch menu-icon"></i>
+              <span class="menu-title">Watch</span>
+
+                <!-- watch users tweets-->
+            </a>
+          </li>
+          <li class="nav-item {% if request.path == '/dashboard/events/' %}active{% endif %}">
+            <a class="nav-link" href="/dashboard/events/">
+              <i class="mdi mdi-calendar-clock menu-icon"></i>
+              <span class="menu-title">Event Coverage</span>
+                <!-- follow live events and find out whats happenning-->
+            </a>
+          </li>
+
+          <li class="nav-item {% if request.path == '/dashboard/trends/' %}active{% endif %}">
+            <a class="nav-link" href="/dashboard/trends/">
+              <i class="mdi mdi-trending-up menu-icon"></i>
+              <span class="menu-title">Trends</span>
+                <!-- Follow whats trending now-->
+                <!-- most mentioned words, hashtags, most mentioned personalities-->
+            </a>
+          </li>
+          <li class="nav-item {% if request.path == '/dashboard/docs/' %}active{% endif %}">
+            <a class="nav-link" href="/dashboard/docs/">
+              <i class="mdi mdi-file-document-box menu-icon menu-icon"></i>
+              <span class="menu-title">Documentation</span>
+            </a>
+          </li>
+          <li class="nav-item {% if request.path == '/dashboard/settings/' %}active{% endif %} ">
+            <a class="nav-link" href="#">
+              <i class="mdi mdi-settings menu-icon"></i>
+              Settings
+            </a>
+            <a class="nav-link" href="/dashboard/support/">
+              <i class="mdi mdi-email menu-icon"></i>
+              Contact Support
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">

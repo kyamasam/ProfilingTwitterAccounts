@@ -1,0 +1,640 @@
+{#{% extends 'dashboard/layouts/master.html' %}#}
+{##}
+{#{% block content %}#}
+{##}
+{##}
+{#facebook#}
+{#twitter#}
+{#instagram#}
+{##}
+{##}
+{##}
+{##}
+{#highlight important statements or comments#}
+{##}
+{#work experience   and education#}
+{##}
+{# past illegal behavior#}
+{##}
+{#drug use#}
+{# racist or sexist#}
+{##}
+{##}
+{#personal info#}
+{##}
+{#- location#}
+{# friends#}
+{#family#}
+{##}
+{#marketting#}
+{#    -links shared (file:///C:/Users/samue/Pictures/Screenshots/Screenshot%20(12).png)#}
+{#    Favourite Topics#}
+{##}
+{#photos#}
+{#    metadata:#}
+{#        Photo analysis#}
+{##}
+{##}
+{#maybe check for fraud#}
+{#{% endblock %}#}
+
+{% extends 'dashboard/layouts/master.html' %}
+{% block content %}
+
+
+
+
+        <div class="col-md-12">
+
+                    <h4 class="display-3 offset-4 grid-margin"> The profile of {{ user_results.screen_name }} </h4>
+
+        </div>
+            <div class="col-lg-6 grid-margin stretch-card offset-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Graph of Posts Against time</h4>
+                  <canvas id="mentionsChart" style="height:250px"></canvas>
+                </div>
+              </div>
+            </div>
+             <div class="col-md-12">
+                    <h4 class="display-3 offset-5 grid-margin"> Sentiment
+    
+
+                    </h4>
+
+        </div>
+            <div class="col-md-4 d-flex align-items-stretch">
+              <div class="row flex-grow-1 w-100">
+                <div class="col-12 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body d-flex justify-content-center">
+                      <div class="d-flex align-items-center">
+                        <div class="bg-info p-3 text-white rounded mr-2">
+                          <i class="mdi mdi-comment"></i>
+                        </div>
+                        <div class="" style="">
+                          <h3>{{ user_results.statuses_count }}</h3>
+                          <p class="mb-0">Total Posts</p>
+                        </div>
+                          <div class="bg-primary p-3 text-white rounded mr-2 ml-5" STYLE="">
+                          <i class="mdi mdi-share-variant"></i>
+                        </div>
+                          <div>
+                          <h3>4000</h3>
+                          <p class="mb-0">Total Post Reach</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                          <h4 class="card-title">Sentiment Analysis</h4>
+                          <canvas id="user_sentiment_chart" style="height:250px"></canvas>
+                            <h6 class="mr-2"> Conclusion: {{ user_results.screen_name }} is generally a 
+                                {% with negative=posts_count_on_day.0 neutral=posts_count_on_day.1 positive=posts_count_on_day.2  %}
+
+                               {% if neutral > negative %}
+                                        {% if neutral > positive %}
+                                             <span style="color: #cecece;">neutral </span>
+                                        {% else %}
+                                             <span style="color: #53c4fb">positive </span>
+                                        {% endif %}
+                                {% elif negative > positive %}
+                                    {% if negative > neutral %}
+                                            <span style="color: #ed7879">negative </span>
+                                        {% else %}
+                                             <span style="color: #cecece;">neutral </span>
+                                        {% endif %}
+                                 {% elif positive > neutral %}
+                                        {% if positive > negative %}
+                                            <span style="color: #53c4fb">positive </span>
+                                        {% else %}
+                                            <span style="color: #ed7879">negative </span>
+                                        {% endif %}
+                                {% endif %}
+                                
+                                    {% endwith %}
+                                person</h6>
+                        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 d-flex grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body d-flex flex-column">
+                  <div class="d-block d-lg-flex justify-content-between">
+                    <h4 class="card-title">Sentiment Analysis for {{ recent_tweets.user.screen_name }}</h4>
+                    <ul class="nav nav-pills nav-pills-primary border-bottom-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Month</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Week</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">All Time</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <canvas id="sentiment-chart" class="mt-auto"></canvas>
+                </div>
+              </div>
+            </div>
+
+
+
+     <div class="col-12">
+              <div class="">
+                <div class="">
+                  <h4 class="card-title offset-4">Posts Per Social Network </h4>
+                  <p class="card-description offset-4 mr-5">Click on a pill to see its contents</p>
+                   <div class="row">
+                    <div class="col-md-10 mx-auto">
+                        <div class="card">
+                            <div class="card-body">
+                                <ul class="nav nav-pills nav-pills-custom offset-2" id="pills-tab-custom" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active" id="pills-home-tab-custom" data-toggle="pill" href="#pills-health" role="tab" aria-controls="pills-home" aria-selected="true">
+                              <i class="mdi mdi-twitter"></i>
+                            Twitter
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="pills-profile-tab-custom" data-toggle="pill" href="#pills-career" role="tab" aria-controls="pills-profile" aria-selected="false">
+                            <i class="mdi mdi-facebook"></i>
+                              Facebook
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="pills-contact-tab-custom" data-toggle="pill" href="#pills-music" role="tab" aria-controls="pills-contact" aria-selected="false">
+                            <i class="mdi mdi-youtube-play"></i>
+                              Youtube
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="pills-vibes-tab-custom" data-toggle="pill" href="#pills-vibes" role="tab" aria-controls="pills-contact" aria-selected="false">
+                            <i class="mdi mdi-instagram"></i>
+                              Instagram
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="pills-energy-tab-custom" data-toggle="pill" href="#pills-energy" role="tab" aria-controls="pills-contact" aria-selected="false">
+                            <i class="mdi mdi-google-plus"></i>
+                              Google +
+                          </a>
+                        </li>
+                      </ul>
+                            </div>
+                        </div>
+                      <div class="tab-content tab-content-custom-pill" id="pills-tabContent-custom">
+                        <div class="tab-pane fade show active" id="pills-health" role="tabpanel" aria-labelledby="pills-home-tab-custom">
+                           <div class="card-columns">
+                                {% if recent_tweets %}
+
+                                        {% for recent_tweet in recent_tweets %}
+                                            <div class="card ">
+                                                    {% for media in recent_tweet.extended_entities.media %}
+                                                        {% if media.type == 'video' %}
+                                                             <img class="card-img-top" src="{{ media.media_url_https }}" alt="Card image cap">
+
+                                                             <!-- Modal starts -->
+                                                             <div class="text-center mt-3">
+                                                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#{{ recent_tweet.id }}">Click To Play Video<i class="mdi mdi-play-circle ml-1"></i></button>
+                                                              </div>
+
+                                                          <div class="modal fade" id="{{recent_tweet.id }}" tabindex="-1" role="dialog" aria-labelledby="{{recent_tweet.id }}Label-2" aria-hidden="true">
+                                                            <div class="modal-dialog" role="document">
+                                                              <div class="modal-content" style="width:fit-content;">
+                                                                <div class="modal-header">
+                                                                  <h5 class="modal-title " id="{{recent_tweet.id }}" style="">Video</h5>
+                                                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="pause_video('player_{{recent_tweet.id}}')">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                  </button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <video poster="{{ video.media_url_https }}" id="player_{{recent_tweet.id }}" playsinline class="{{recent_tweet.id}}" controls>
+
+                                                                       {% with counter=0 %}
+                                                                           {% for video in media.video_info.variants  %}
+
+                                                                                {% if counter == 0 %}
+                                                                                    <source src="{{ video.url }}" type="{{ video.content_type }}">
+                                                                                {% endif %}
+                                                                             {{ counter|add:"1" }}
+
+                                                                        {% endfor %}
+                                                                    {% endwith %}
+
+                                                                    </video>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <!-- Modal Ends -->
+
+
+                                                        {% else  %}
+                                                            <img class="card-img-top" src="{{ media.media_url_https }}" alt="Card image cap">
+                                                        {% endif %}
+                                                    {% endfor %}
+
+                                              <div class="card-body">
+                                                  <h4 class="card-title">{{ recent_tweet.user.screen_name  }} {%  if recent_tweet.user.verified %}<span class="mdi mdi-verified text-primary" style=""> </span> {% else %} {% endif %}</h4>
+                                                  <p class="card-text">Retweeted By : {{ recent_tweet.retweet_count }}</p>
+                                                  <p class="card-text">Liked by : {{ recent_tweet.favorite_count }}</p>
+{#                                                  <p class="card-text">Lists : {{ recent_tweet.listed_count }}</p>#}
+                                                  <p class="card-text">Location : {{ recent_tweet.location }}</p>
+                                                  <p class="card-text">Posts : {{ recent_tweet.statuses_count }}</p>
+                                                  <p class="card-text">{{ recent_tweet.text }}</p>
+                                                  <p class="card-text">Created at{{ recent_tweet.created_at }}</p>
+                                              </div>
+                                            </div>
+
+                                        {% endfor %}
+
+
+                                {% endif %}
+                        </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-career" role="tabpanel" aria-labelledby="pills-profile-tab-custom">
+                          <div class="media">
+                                <p class="card-description">Normal modal with default bootstrap settings</p>
+                                                      <!-- Dummy Modal Starts -->
+                                                      <div class="modal demo-modal">
+                                                        <div class="modal-dialog">
+                                                          <div class="modal-content">
+                                                            <div class="modal-header">
+                                                              <h5 class="modal-title">Modal title</h5>
+                                                              <button type="button" class="close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                              </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                              <p>Modal body text goes here.</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                              <button type="button" class="btn btn-success">Submit</button>
+                                                              <button type="button" class="btn btn-light">Cancel</button>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <!-- Dummy Modal Ends -->
+                                                      <!-- Modal starts -->
+                                                      <div class="text-center">
+                                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal-2">Click for demo<i class="mdi mdi-play-circle ml-1"></i></button>
+                                                      </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-music" role="tabpanel" aria-labelledby="pills-contact-tab-custom">
+                          <div class="media">
+                            <img class="mr-3 w-25 rounded" src="/static/images/samples/300x300/14.jpg" alt="sample image">
+                            <div class="media-body">
+                              <p>
+                                  I'm really more an apartment person. This man is a knight in shining armor. Oh I beg to differ  
+                                  I think we have a lot to discuss. After all   you are a client. You all right   Dexter?
+                              </p>
+                              <p>
+                                  I'm generally confused most of the time. Cops   another community I'm not part of. You're a killer.
+                                  I catch killers. Hello   Dexter Morgan.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-vibes" role="tabpanel" aria-labelledby="pills-vibes-tab-custom">
+                          <div class="media">
+                            <img class="mr-3 w-25 rounded" src="/static/images/samples/300x300/15.jpg" alt="sample image">
+                            <div class="media-body">
+                              <p>
+                                  This man is a knight in shining armor. I feel like a jigsaw puzzle missing a piece. And I'm not
+                                  even sure what the picture should be. Somehow   I doubt that. You have a good heart   Dexter. Keep your mind limber.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-energy" role="tabpanel" aria-labelledby="pills-energy-tab-custom">
+                          <div class="media">
+                            <img class="mr-3 w-25 rounded" src="/static/images/samples/300x300/11.jpg" alt="sample image">
+                            <div class="media-body">
+                              <p>
+                                  Finding a needle in a haystack isn't hard when every straw is computerized. You're a killer. I catch killers.
+                                  I will not kill my sister. I will not kill my sister. I will not kill my sister. Rorschach would say you have a hard time relating to others.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+             <div class="col-md-12">
+                    <h4 class="display-3 offset-4 grid-margin"> Regions posted from & Post Time </h4>
+            </div>
+            <div class="col-lg-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Region Posted From</h4>
+                  <div class="google-chart-container">
+                    <div id="regions-chart" class="google-charts"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Days Posted On</h4>
+                  <div class="google-chart-container d-flex align-items-center justify-content-center h-100">
+                    <canvas id="myChart" width="700" height="700"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+{% endblock %}
+
+{% block page_scripts %}
+
+    <script>
+
+  var mentionsData = {
+    labels: [
+         {% for event_lebel in post_on_date%}
+            "{{ event_lebel }}",
+         {% endfor %}
+    ],
+    datasets: [{
+      label: 'Posts',
+      data: [
+          {% for data in no_of_posts_on_date %}
+              {{ data }},
+          {% endfor %}
+      ],
+      backgroundColor: [
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(255, 206, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        'rgba(153, 102, 255, 0.2)',
+        'rgba(255, 159, 64, 0.2)'
+      ],
+      borderColor: [
+        'rgba(255,99,132,1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)'
+      ],
+      borderWidth: 1,
+      fill: true, // 3: no fill
+    }]
+  };
+   var mentionsOptions = {
+    plugins: {
+      filler: {
+        propagate: true
+      }
+    }
+  }
+
+  if ($("#mentionsChart").length) {
+    var mentionsChartCanvas = $("#mentionsChart").get(0).getContext("2d");
+    var mentionsChart = new Chart(mentionsChartCanvas, {
+      type: 'line',
+      data: mentionsData,
+      options: mentionsOptions
+    });
+  }
+
+
+    var ctx = document.getElementById("myChart");
+    var myChart = new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: [
+
+        {%  for label in name_of_weekday %}
+            "{{ label }}",
+        {% endfor %}
+
+    ],
+    datasets: [{
+      label: 'Posts',
+      data: [
+
+      {%  for data in posts_count_on_day %}
+            "{{ data }}",
+        {% endfor %}
+
+      ],
+      backgroundColor: [
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(255, 206, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        'rgba(153, 102, 255, 0.2)',
+        'rgba(255, 159, 64, 0.2)',
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(255, 206, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        'rgba(153, 102, 255, 0.2)',
+        'rgba(255, 159, 64, 0.2)'
+      ],
+      borderColor: [
+        'rgba(255,99,132,1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)',
+        'rgba(255,99,132,1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)'
+      ],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: false,
+    scales: {
+      xAxes: [{
+        ticks: {
+          maxRotation: 90,
+          minRotation: 80
+        }
+      }],
+      yAxes: [{
+        ticks: {
+          beginAtZero: true
+        }
+      }]
+    }
+  }
+});
+
+
+    (function($) {
+  'use strict';
+  $(function() {
+       {% with negative=posts_count_on_day.0 neutral=posts_count_on_day.1 positive=posts_count_on_day.2  %}
+var colors;
+                               {% if neutral > negative %}
+                                        {% if neutral > positive %}
+                                             colors="#cecece";
+                                        {% else %}
+                                             colors="#53c4fb";
+                                        {% endif %}
+                                {% elif negative > positive %}
+                                    {% if negative > neutral %}
+                                            colors="#ed7879";
+                                        {% else %}
+                                            colors="#cecece";
+                                        {% endif %}
+                                 {% elif positive > neutral %}
+                                        {% if positive > negative %}
+                                            colors="#53c4fb";
+                                        {% else %}
+                                            colors="#ed7879";
+                                        {% endif %}
+                                   {% else %}
+                                {% endif %}
+
+                                    {% endwith %}
+    if ($("#sentiment-chart").length) {
+      Chart.defaults.global.legend.labels.usePointStyle = true;
+      var ctx = document.getElementById('sentiment-chart').getContext("2d");
+
+      var gradientStrokeLine = ctx.createLinearGradient(500, 0, 100, 0);
+      gradientStrokeLine.addColorStop(0, 'rgba(0, 133, 255, .7)');
+      gradientStrokeLine.addColorStop(1, 'rgba(53,35,192,.5)');
+
+      var gradientStrokeFill = ctx.createLinearGradient(500, 0, 100, 0);
+      gradientStrokeFill.addColorStop(0, 'rgba(0, 133, 255, .2)');
+      gradientStrokeFill.addColorStop(1, 'rgba(53,35,192,.2)');
+
+      var earningChartData = {
+        datasets: [{
+          label: "Sentiment",
+            borderColor: colors,
+            fill: true,
+            backgroundColor: '',
+            borderWidth: 4,
+            data: [
+                {% for data in polarity_values %}
+                        {{ data }},
+                        {% endfor %}
+            ]
+        },
+
+        ],
+
+        // These labels appear in the legend and in the tooltips when hovering different arcs
+        labels: [
+              {%  for label in recent_tweets %}
+            "{{ label.created_at }}",
+        {% endfor %}
+        ]
+      };
+      var earningChartOptions = {
+        responsive: true,
+        animation: {
+          animateScale: true,
+          animateRotate: true
+        },
+        legend: false,
+        elements: {
+          point: {
+            radius: 0
+          }
+        },
+        scales: {
+          xAxes: [{
+            gridLines: {
+              color: 'rgba(0, 0, 0, .02)'
+            },
+          }],
+          yAxes: [{
+            gridLines: {
+              color: 'rgba(255, 255, 255, 0)'
+            }
+          }]
+        }
+      };
+      var earningChartCanvas = $("#sentiment-chart").get(0).getContext("2d");
+      var earningChart = new Chart(earningChartCanvas, {
+        type: 'line',
+        data: earningChartData,
+        options:{
+          earningChartOptions,
+            tooltips:{
+              display:true,
+        }
+        }
+      });
+    }
+  });
+
+
+  var doughnutPieData = {
+    datasets: [{
+      data: [{{ posts_count_on_day.0 }},{{ posts_count_on_day.1 }}, {{ posts_count_on_day.2 }}],
+      backgroundColor: [
+        '#ed7879',
+        '#cecece',
+        '#53c4fb',
+      ],
+      borderColor: [
+
+      ],
+    }],
+
+    // These labels appear in the legend and in the tooltips when hovering different arcs
+    labels: [
+      'Negative',
+      'Neutral',
+      'Positive',
+    ]
+  };
+  var doughnutPieOptions = {
+    responsive: true,
+    animation: {
+      animateScale: true,
+      animateRotate: true
+    }
+  };
+if ($("#user_sentiment_chart").length) {
+  var sentiment_chartCanvas = $("#user_sentiment_chart").get(0).getContext("2d");
+  var user_sentiment_chart = new Chart(sentiment_chartCanvas, {
+    type: 'doughnut',
+    data: doughnutPieData,
+    options: doughnutPieOptions
+  });
+}
+})(jQuery);
+
+
+
+    </script>
+
+    <script src="/static/js/dashboard.js"></script>
+    <script src="/static/js/single_user.js"></script>
+  <script src="/static/js/chart.js"></script>
+  <script src="/static/js/tabs.js"></script>
+  <script src="/static/js/google-charts.js"></script>
+  <script src="/static/js/modal-demo.js"></script>
+
+
+{% endblock %}

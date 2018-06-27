@@ -1,0 +1,24 @@
+{% extends 'dashboard/layouts/master.html' %}
+{% block content %}
+
+        <div class="col-md-12">
+            <h4 class="display-3 offset-4 grid-margin"> Users Watching </h4>
+        </div>
+
+        <div class="col-lg-3 grid-margin stretch-card">
+          <div class="card">
+                   <img class="card-img-top" src="/static/images/samples/300x300/9.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+              <h4 class="card-title ">Name </h4>
+{#                <h4 class="card-title">Card title that wraps to a new line</h4>#}
+                <a href="/dashboard/watch/12/" class="btn btn-gradient-primary btn-rounded btn-fw">View More</a>
+            </div>
+          </div>
+        </div>
+{% endblock %}
+
+{% block page_scripts %}
+
+   <script src="/static/js/owl-carousel.js"></script>
+
+{% endblock %}

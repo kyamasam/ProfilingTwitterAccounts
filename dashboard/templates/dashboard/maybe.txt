@@ -1,0 +1,26 @@
+fraud check
+
+generate reports in form of pdf, csv
+
+
+grade posts in groups of positive and negative
+
+
+group stats based on dates
+
+
+grade mentions by category
+
+
+display context of most found words in the search
+
+find trendng topics in the news
+
+
+allow people to organize search through projects
+
+
+send email alerts to users on their watches
+
+Fans online at any specific time
+

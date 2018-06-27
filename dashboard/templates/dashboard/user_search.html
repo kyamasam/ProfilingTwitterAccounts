@@ -1,0 +1,23 @@
+{% extends 'dashboard/layouts/master.html' %}
+
+{% block content %}
+
+             <div class="col-md-12"><h1 class="offset-3 display-4 d-flex mb-5">Search for Users</h1></div>
+                <div class="col-md-12">
+                    <form action="/dashboard/user_search_result/" method="get" class="form-inline offset-2 mb-5">
+                         <div class="form-group mx-sm-3 mb-2 ">
+                                <input type="text" name="search_term" style="width:500px;" class="form-control  col-md-12" placeholder="Search" value="{{ term }}">
+
+                         </div>
+                          <button type="submit" class="btn btn-primary mb-2"><i class="mdi mdi-account-search"></i> </button>
+                     </form>
+                </div>
+
+
+
+{% endblock %}
+
+
+{% block page_scripts %}
+    <script src="/static/js/owl-carousel.js"></script>
+{% endblock %}
