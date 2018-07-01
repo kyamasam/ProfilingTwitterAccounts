@@ -23,7 +23,32 @@
     <link rel="stylesheet" href="/static/css/style.css">
     <!-- endinject -->
     <link rel="shortcut icon" href="/static/images/spider.png" />
-
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #floating-panel {
+        position: absolute;
+        top: 10px;
+        left: 25%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+    </style>
 </head>
 <body>
   <div class="container-scroller">
@@ -59,23 +84,30 @@
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
-
-
-           <li class="nav-item {% if request.path == '/dashboard/companies/' %}active{% endif %}">
-            <a class="nav-link " data-toggle="collapse" href="#companies" aria-expanded="true" aria-controls="mentions">
-              <i class="mdi mdi-bank menu-icon"></i>
-              <span class="menu-title">Influential Companies</span>
-              <i class="menu-arrow"></i>
+        <li class="nav-item {% if request.path == '/dashboard/trends/' %}active{% endif %}">
+            <a class="nav-link" href="/dashboard/trends/">
+              <i class="mdi mdi-trending-up menu-icon"></i>
+              <span class="menu-title">Trends</span>
+                <!-- Follow whats trending now-->
+                <!-- most mentioned words, hashtags, most mentioned personalities-->
             </a>
-            <div class="collapse{% if request.path == '/dashboard/companies/' %} show{% endif %}" id="companies">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link {% if request.path == '/dashboard/companies/' %}active{% endif %}" href="/dashboard/companies/">Influential Companies</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Pdf report</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Excel Report</a></li>
-
-              </ul>
-            </div>
           </li>
+
+{#           <li class="nav-item {% if request.path == '/dashboard/companies/' %}active{% endif %}">#}
+{#            <a class="nav-link " data-toggle="collapse" href="#companies" aria-expanded="true" aria-controls="mentions">#}
+{#              <i class="mdi mdi-bank menu-icon"></i>#}
+{#              <span class="menu-title">Influential Companies</span>#}
+{#              <i class="menu-arrow"></i>#}
+{#            </a>#}
+{#            <div class="collapse{% if request.path == '/dashboard/companies/' %} show{% endif %}" id="companies">#}
+{#              <ul class="nav flex-column sub-menu">#}
+{#                <li class="nav-item"> <a class="nav-link {% if request.path == '/dashboard/companies/' %}active{% endif %}" href="/dashboard/companies/">Influential Companies</a></li>#}
+{#                <li class="nav-item"> <a class="nav-link" href="">Pdf report</a></li>#}
+{#                <li class="nav-item"> <a class="nav-link" href="">Excel Report</a></li>#}
+{##}
+{#              </ul>#}
+{#            </div>#}
+{#          </li>#}
 
 
 
@@ -138,14 +170,7 @@
             </a>
           </li>
 
-          <li class="nav-item {% if request.path == '/dashboard/trends/' %}active{% endif %}">
-            <a class="nav-link" href="/dashboard/trends/">
-              <i class="mdi mdi-trending-up menu-icon"></i>
-              <span class="menu-title">Trends</span>
-                <!-- Follow whats trending now-->
-                <!-- most mentioned words, hashtags, most mentioned personalities-->
-            </a>
-          </li>
+
           <li class="nav-item {% if request.path == '/dashboard/docs/' %}active{% endif %}">
             <a class="nav-link" href="/dashboard/docs/">
               <i class="mdi mdi-file-document-box menu-icon menu-icon"></i>

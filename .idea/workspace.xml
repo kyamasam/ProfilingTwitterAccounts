@@ -2,1096 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b80e5696-d5ca-41ef-a8bc-3495fd76c0b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/limitcheck.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/secrets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/css/Roboto-Black.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/css/Roboto-Bold.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/css/Roboto-Light.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/css/Roboto-Medium.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/css/Roboto-Regular.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Regular.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Lato/Lato-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Black.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Blackd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Bold.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Boldd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Lightd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Medium.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Mediumd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Regular.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/fonts/Roboto/Roboto-Regulard41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/auth/lockscreen-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/auth/login-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/auth/register-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/carousel/banner_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/carousel/banner_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/carousel/banner_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/carousel/banner_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/carousel/banner_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/carousel/banner_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/carousel/banner_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/carousel/banner_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/carousel/banner_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/carousel/banner_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/carousel/banner_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/carousel/banner_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/faces/face9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/file-icons/dropify-icon-large.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/file-icons/dropify-icon-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/lightbox/play-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/lightbox/thumb-v-v-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/lightbox/thumb-v-v-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/lightbox/thumb-v-y-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/lightbox/thumb-v-y-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/logo-mini.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/1280x768/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/1280x768/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/1280x768/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/1280x768/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/1280x768/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/1280x768/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/1280x768/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/1280x768/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/1280x768/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/1280x768/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/1280x768/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/1280x768/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/samples/300x300/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/spider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/images/sprites/jsgrid-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/alerts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/avgrund.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/bt-maxLength.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/c3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/chartist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/clipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/codeEditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/context-menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/data-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/desktop-notification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/dragula.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/dropify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/dropzone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/editorDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/file-upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/flot-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/form-addons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/form-repeater.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/form-validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/formpickers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/google-charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/google-maps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/hoverable-collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/iCheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/ion-range-slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/jq.tablesort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/jquery-file-upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/js-grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/just-gage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/light-gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/mapeal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/mapeal_example_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/mapeal_example_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/maps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/misc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/modal-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/morris.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/no-ui-slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/off-canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/owl-carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/paginate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/profile-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/progress-bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/single_user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/sparkline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/tablesorter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/tight-grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/toastDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/todolist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/tooltips.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/typeahead.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/js/x-editable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/node_modules/owl-carousel-2/assets/owl.carousel.min.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/node_modules/owl-carousel-2/assets/owl.theme.default.min.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/captions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/config/defaults.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/config/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/console.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/controls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/fullscreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/i18n.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/listeners.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/media.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/plugins/ads.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/plugins/vimeo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/plugins/youtube.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/plyr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/plyr.polyfilled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/source.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/storage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/arrays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/elements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/loadImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/loadScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/loadSprite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/objects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/strings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/plyr/js/utils/urls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/ace-builds/src-min/ace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/css/font/context-menu-icons78f9-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/css/font/context-menu-icons78f9-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/css/font/context-menu-icons78f9-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/css/font/context-menu-icons78f9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/css/owl.video.play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/css/vendor.bundle.addons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/css/vendor.bundle.base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/fonts/dropify-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/fonts/dropify.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/fonts/dropify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/fonts/dropify.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/icheck/skins/all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/css/flag-icon.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ad.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ae.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/af.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ai.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/al.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/am.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ao.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/aq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/as.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/at.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/au.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/aw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ax.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/az.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ba.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/be.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/br.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/by.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/bz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ca.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ci.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ck.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/co.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/cz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/de.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/dj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/dk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/dm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/do.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/dz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ec.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ee.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/eg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/eh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/er.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/es-ct.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/es.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/et.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/eu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/fi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/fj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/fk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/fm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/fo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/fr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ga.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gb-eng.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gb-nir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gb-sct.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gb-wls.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ge.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/gy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/hk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/hm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/hn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/hr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ht.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/hu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/id.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ie.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/il.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/im.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/in.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/io.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/iq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/is.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/it.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/je.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/jm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/jo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/jp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ke.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/kg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/kh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ki.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/km.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/kn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/kp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/kr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/kw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ky.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/kz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/la.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/lb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/lc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/li.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/lk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/lr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ls.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/lt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/lu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/lv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ly.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ma.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/md.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/me.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ml.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ms.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/my.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/mz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/na.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/nc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ne.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/nf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ng.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ni.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/nl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/np.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/nr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/nu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/nz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/om.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/pa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/pe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/pf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/pg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ph.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/pk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/pl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/pm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/pn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/pr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ps.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/pt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/pw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/py.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/qa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/re.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/rs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ru.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/rw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/se.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/si.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/so.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ss.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/st.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/sz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/tc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/td.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/tf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/tg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/th.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/tj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/tk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/tl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/tm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/tn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/to.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/tr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/tt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/tv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/tw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/tz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ua.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ug.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/um.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/un.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/us.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/uy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/uz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/va.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/vc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ve.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/vg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/vi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/vn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/vu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/wf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ws.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/ye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/yt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/za.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/zm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/1x1/zw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ad.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ae.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/af.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ai.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/al.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/am.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ao.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/aq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/as.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/at.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/au.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/aw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ax.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/az.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ba.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/be.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/br.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/by.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/bz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ca.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ci.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ck.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/co.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/cz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/de.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/dj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/dk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/dm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/do.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/dz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ec.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ee.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/eg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/eh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/er.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/es-ct.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/es.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/et.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/eu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/fi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/fj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/fk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/fm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/fo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/fr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ga.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gb-eng.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gb-nir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gb-sct.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gb-wls.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ge.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/gy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/hk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/hm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/hn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/hr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ht.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/hu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/id.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ie.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/il.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/im.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/in.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/io.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/iq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/is.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/it.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/je.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/jm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/jo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/jp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ke.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/kg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/kh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ki.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/km.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/kn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/kp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/kr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/kw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ky.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/kz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/la.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/lb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/lc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/li.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/lk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/lr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ls.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/lt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/lu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/lv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ly.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ma.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/md.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/me.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ml.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ms.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/my.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/mz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/na.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/nc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ne.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/nf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ng.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ni.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/nl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/np.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/nr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/nu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/nz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/om.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/pa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/pe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/pf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/pg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ph.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/pk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/pl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/pm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/pn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/pr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ps.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/pt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/pw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/py.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/qa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/re.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/rs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ru.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/rw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/se.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/si.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/so.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ss.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/st.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/sz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/tc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/td.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/tf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/tg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/th.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/tj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/tk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/tl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/tm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/tn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/to.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/tr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/tt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/tv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/tw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/tz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ua.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ug.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/um.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/un.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/us.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/uy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/uz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/va.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/vc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ve.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/vg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/vi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/vn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/vu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/wf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ws.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/ye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/yt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/za.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/zm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/flag-icon-css/flags/4x3/zw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/font-awesome/fonts/fontawesome-webfont3e6e.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/font-awesome/fonts/fontawesome-webfont3e6e.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/font-awesome/fonts/fontawesome-webfont3e6e.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/font-awesome/fonts/fontawesome-webfont3e6e.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/font-awesome/fonts/fontawesome-webfont3e6e.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/font-awesome/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/mdi/css/materialdesignicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/mdi/fonts/materialdesignicons-webfontb675.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/mdi/fonts/materialdesignicons-webfontb675.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/mdi/fonts/materialdesignicons-webfontb675.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/mdi/fonts/materialdesignicons-webfontb675.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/mdi/fonts/materialdesignicons-webfontb675.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/mdi/fonts/materialdesignicons-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/simple-line-icon/css/simple-line-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/simple-line-icon/fonts/Simple-Line-Iconsb26c.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/simple-line-icon/fonts/Simple-Line-Iconsb26c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/simple-line-icon/fonts/Simple-Line-Iconsb26c.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/simple-line-icon/fonts/Simple-Line-Iconsb26c.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/simple-line-icon/fonts/Simple-Line-Iconsb26c.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/ti-icons/css/themify-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/ti-icons/fonts/themify.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/ti-icons/fonts/themify.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/ti-icons/fonts/themify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/ti-icons/fonts/themify.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/iconfonts/ti-icons/fonts/themifyd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/images/alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/images/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/images/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/images/transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/img/clear.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/img/loading.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/img/sprite-skin-flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/js/vendor.bundle.addons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/js/vendor.bundle.base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/lightgallery/css/lightgallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/lightgallery/fonts/lgd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/lightgallery/fonts/lgd641.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/lightgallery/fonts/lgd641.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/lightgallery/fonts/lgd641.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/lightgallery/fonts/lgd641.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/lightgallery/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/lightgallery/img/video-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/lightgallery/img/vimeo-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/lightgallery/img/youtube-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/lightgallery/js/lightgallery-all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/summernote/dist/font/summernote291f.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/summernote/dist/font/summernote291f.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/summernote/dist/font/summernote291f.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/summernote/dist/font/summernoted41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/summernote/dist/summernote-bs4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/summernote/dist/summernote-bs4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/tinymce/themes/modern/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/vendors/tinymce/tinymce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/brands.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/companies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/events_single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/master.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/navigation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/maybe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/mentions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/single_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/support.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/trends.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/user_search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/user_search_result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/watch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/watch_single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/tweepy_api/secrets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PySocks-1.6.8-py3.6.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PySocks-1.6.8-py3.6.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PySocks-1.6.8-py3.6.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PySocks-1.6.8-py3.6.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PySocks-1.6.8-py3.6.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2018.4.16.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2018.4.16.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2018.4.16.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2018.4.16.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2018.4.16.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2018.4.16.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2018.4.16.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2018.4.16.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi/cacert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/big5freq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/big5prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/chardistribution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/charsetgroupprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/charsetprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/cli/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/cli/chardetect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/codingstatemachine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/cp949prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/escprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/escsm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/eucjpprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/euckrfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/euckrprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/euctwfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/euctwprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/gb2312freq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/gb2312prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/hebrewprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/jisfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/jpcntx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langbulgarianmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langcyrillicmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langgreekmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langhebrewmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langhungarianmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langthaimodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langturkishmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/latin1prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/mbcharsetprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/mbcsgroupprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/mbcssm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/sbcharsetprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/sbcsgroupprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/sjisprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/universaldetector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/utf8prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/examples/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/examples/oauth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/examples/streaming.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.7.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.7.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.7.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.7.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.7.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.7.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/codec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/idnadata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/intranges.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/package_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/uts46data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib-2.1.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib-2.1.0.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib-2.1.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib-2.1.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib-2.1.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib-2.1.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/endpoints/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/endpoints/access_token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/endpoints/authorization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/endpoints/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/endpoints/pre_configured.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/endpoints/request_token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/endpoints/resource.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/endpoints/signature_only.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/parameters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/request_validator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/signature.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth1/rfc5849/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/clients/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/clients/backend_application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/clients/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/clients/legacy_application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/clients/mobile_application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/clients/service_application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/clients/web_application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/endpoints/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/endpoints/authorization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/endpoints/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/endpoints/pre_configured.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/endpoints/resource.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/endpoints/revocation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/endpoints/token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/grant_types/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/grant_types/authorization_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/grant_types/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/grant_types/client_credentials.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/grant_types/implicit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/grant_types/openid_connect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/grant_types/refresh_token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/grant_types/resource_owner_password_credentials.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/parameters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/request_validator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/tokens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/oauth2/rfc6749/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/oauthlib/uri_validate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.19.1.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.19.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.19.1.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.19.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.19.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.19.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.19.1.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.19.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/__version__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/_internal_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/adapters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/certs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/help.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/hooks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/packages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/sessions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/status_codes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/structures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib-1.0.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib-1.0.0.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib-1.0.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib-1.0.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib-1.0.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib-1.0.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/compliance_fixes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/compliance_fixes/douban.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/compliance_fixes/facebook.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/compliance_fixes/fitbit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/compliance_fixes/linkedin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/compliance_fixes/mailchimp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/compliance_fixes/plentymarkets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/compliance_fixes/slack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/compliance_fixes/weibo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/oauth1_auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/oauth1_session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/oauth2_auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests_oauthlib/oauth2_session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.11.0.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.11.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.11.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.11.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.11.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.11.0.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.11.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/socks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sockshandler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy-3.6.0.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy-3.6.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy-3.6.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy-3.6.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy-3.6.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy-3.6.0.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy-3.6.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy-3.6.0.dist-info/zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy/binder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy/cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy/cursor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy/error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy/parsers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy/streaming.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/tweepy/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.23.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.23.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.23.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.23.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.23.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.23.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.23.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.23.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/_collections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connectionpool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/appengine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/ntlmpool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/pyopenssl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/securetransport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/socks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/filepost.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/backports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/backports/makefile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ordered_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/six.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/poolmanager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/retry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/ssl_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/timeout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/wait.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/chardetect.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/single_place_trend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/single_trend.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiling_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiling_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiling_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiling_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/templates/dashboard/single_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/single_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/templates/dashboard/trends.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/trends.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/templates/dashboard/user_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/dashboard/user_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1105,20 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/layouts/header.html">
+      <file leaf-file-name="trends.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/trends.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1847">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="408">
+              <caret line="24" column="67" lean-forward="true" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/layouts/footer.html">
+      <file leaf-file-name="companies.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/companies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="42" selection-end-column="30" />
+              <folding>
+                <element signature="e#2425#2449#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1126,8 +49,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="136" column="261" selection-start-line="136" selection-start-column="246" selection-end-line="136" selection-end-column="261" />
+            <state relative-caret-position="340">
+              <caret line="206" column="39" selection-start-line="206" selection-start-column="39" selection-end-line="206" selection-end-column="39" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -1135,83 +58,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single_user.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user_search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/user_search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="163" selection-start-line="8" selection-start-column="163" selection-end-line="8" selection-end-column="163" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_search_result.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/user_search_result.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="45" selection-end-column="18" />
+              <folding>
+                <element signature="e#794#2374#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single_place_trend.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/single_place_trend.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+              <folding>
+                <element signature="e#1152#1199#0#HTML" expanded="true" />
+                <element signature="e#1244#1282#0#HTML" expanded="true" />
+                <element signature="e#1287#1310#0#HTML" expanded="true" />
+                <element signature="e#1501#1521#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single_user.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/single_user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="532" column="30" selection-start-line="532" selection-start-column="30" selection-end-line="532" selection-end-column="30" />
+            <state relative-caret-position="74">
+              <caret line="196" column="27" selection-start-line="196" selection-start-column="27" selection-end-line="262" selection-end-column="30" />
               <folding>
-                <element signature="e#2957#2977#0#HTML" expanded="true" />
-                <element signature="e#3323#3343#0#HTML" expanded="true" />
-                <element signature="e#3473#3495#0#HTML" expanded="true" />
-                <element signature="e#3702#3724#0#HTML" expanded="true" />
-                <element signature="e#3844#3867#0#HTML" expanded="true" />
-                <element signature="e#4108#4130#0#HTML" expanded="true" />
-                <element signature="e#4299#4321#0#HTML" expanded="true" />
-                <element signature="e#9979#10005#0#HTML" expanded="true" />
-                <element signature="e#10523#10530#1#HTML" expanded="true" />
-                <element signature="e#14943#14950#1#HTML" expanded="true" />
+                <element signature="e#2572#4595#0#HTML" />
+                <element signature="e#8531#13913#0#HTML" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single_user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/static/js/single_user.js">
+      <file leaf-file-name="single_trend.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/single_trend.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="76" selection-end-line="110" selection-end-column="11" />
-              <folding>
-                <element signature="e#84#2170#0" />
-              </folding>
+            <state relative-caret-position="131">
+              <caret line="47" column="91" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="google-charts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/static/js/google-charts.js">
+      <file leaf-file-name="events.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/events.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/static/js/chart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="299" column="72" lean-forward="true" selection-start-line="299" selection-start-column="72" selection-end-line="299" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/static/js/dashboard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
-              <caret line="110" column="11" lean-forward="true" selection-end-line="110" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="master.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/layouts/master.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navigation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/layouts/navigation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="105" selection-start-line="19" selection-start-column="105" selection-end-line="19" selection-end-column="105" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="748">
+              <caret line="44" column="38" lean-forward="true" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -1229,15 +150,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>New</find>
-      <find>Trendi</find>
-      <find>doughnutChart</find>
-      <find>google-charts</find>
-      <find>.form-c</find>
-      <find>twitw</find>
-      <find>,</find>
-      <find>user_result</find>
-      <find>&lt;/body&gt;</find>
       <find>oncli</find>
       <find>areaData</find>
       <find>areaChart</find>
@@ -1258,7 +170,16 @@
       <find>sentiment_chart</find>
       <find>earning-chart</find>
       <find>sentiment-</find>
+      <find>polarity_values</find>
       <find>created_at</find>
+      <find>sentiment_per_day_numbers</find>
+      <find>polarity_texts</find>
+      <find>polarity_positive</find>
+      <find>trend_locations</find>
+      <find>geocoder</find>
+      <find>recent_tweet</find>
+      <find>Api</find>
+      <find>user_result</find>
     </findStrings>
     <replaceStrings>
       <replace>%}</replace>
@@ -1275,6 +196,8 @@
       <replace>sentiments_on_date</replace>
       <replace>user_sentiment_chart</replace>
       <replace>sentiment-chart</replace>
+      <replace>trend</replace>
+      <replace>tweet</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -1297,25 +220,27 @@
         <option value="$PROJECT_DIR$/dashboard/static/js/dashboard.js" />
         <option value="$PROJECT_DIR$/dashboard/static/js/loader.js" />
         <option value="$PROJECT_DIR$/dashboard/static/js/google-charts.js" />
-        <option value="$PROJECT_DIR$/dashboard/templates/dashboard/trends.html" />
         <option value="$PROJECT_DIR$/dashboard/templates/dashboard/watch.html" />
         <option value="$PROJECT_DIR$/dashboard/templates/dashboard/events.html" />
         <option value="$PROJECT_DIR$/dashboard/templates/dashboard/events_single.html" />
         <option value="$PROJECT_DIR$/dashboard/templates/dashboard/support.html" />
         <option value="$PROJECT_DIR$/dashboard/templates/dashboard/index.html" />
-        <option value="$PROJECT_DIR$/dashboard/templates/dashboard/user_search.html" />
         <option value="$PROJECT_DIR$/dashboard/templates/dashboard/companies.html" />
-        <option value="$PROJECT_DIR$/dashboard/urls.py" />
         <option value="$PROJECT_DIR$/dashboard/templates/dashboard/user_search_result.html" />
         <option value="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/master.html" />
         <option value="$PROJECT_DIR$/dashboard/static/css/style.css" />
-        <option value="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/footer.html" />
         <option value="$PROJECT_DIR$/dashboard/limitcheck.py" />
-        <option value="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/header.html" />
         <option value="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/navigation.html" />
         <option value="$PROJECT_DIR$/dashboard/static/js/single_user.js" />
-        <option value="$PROJECT_DIR$/dashboard/views.py" />
         <option value="$PROJECT_DIR$/dashboard/templates/dashboard/single_user.html" />
+        <option value="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/footer.html" />
+        <option value="$PROJECT_DIR$/dashboard/templates/dashboard/layouts/header.html" />
+        <option value="$PROJECT_DIR$/dashboard/templates/dashboard/trends.html" />
+        <option value="$PROJECT_DIR$/dashboard/urls.py" />
+        <option value="$PROJECT_DIR$/dashboard/templates/dashboard/user_search.html" />
+        <option value="$PROJECT_DIR$/dashboard/views.py" />
+        <option value="$PROJECT_DIR$/dashboard/templates/dashboard/single_trend.html" />
+        <option value="$PROJECT_DIR$/dashboard/templates/dashboard/single_place_trend.html" />
       </list>
     </option>
   </component>
@@ -1371,8 +296,14 @@
               <item name="profiling_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="profiling_project" type="462c0819:PsiDirectoryNode" />
               <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profiling_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profiling_project" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="profiling_project" type="b2602c69:ProjectViewProjectNode" />
@@ -1410,18 +341,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\school\python\profiling_project\dashboard\static\images" />
-      <recent name="D:\projects\school\python\profiling_project\dashboard\static\plyr" />
-      <recent name="D:\projects\school\python\profiling_project\dashboard" />
-      <recent name="D:\projects\school\python\profiling_project\dashboard\tweepy_api" />
-      <recent name="D:\projects\school\python\profiling_project\dashboard\templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\school\python\profiling_project\dashboard\templates\dashboard" />
       <recent name="D:\projects\school\python\profiling_project\dashboard\templates" />
       <recent name="D:\projects\school\python\profiling_project\dashboard" />
       <recent name="D:\projects\school\python\profiling_project\dashboard\dashboard" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\school\python\profiling_project\dashboard\templates\dashboard" />
+      <recent name="D:\projects\school\python\profiling_project\dashboard\static\images" />
+      <recent name="D:\projects\school\python\profiling_project\dashboard\static\plyr" />
+      <recent name="D:\projects\school\python\profiling_project\dashboard" />
+      <recent name="D:\projects\school\python\profiling_project\dashboard\tweepy_api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1475,29 +406,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="GitLabIntegration" order="8" weight="0.23153253" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20043573" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16151386" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37908497" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16471216" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1508,34 +440,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dashboard/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/layouts/master.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/companies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/layouts/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1547">
@@ -1706,16 +614,6 @@
           <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="181" selection-end-column="16" />
           <caret line="186" column="24" lean-forward="true" selection-start-line="186" selection-start-column="24" selection-end-line="186" selection-end-column="24" />
           <caret line="187" column="46" lean-forward="true" selection-start-line="187" selection-end-line="187" selection-end-column="46" />
-          <folding>
-            <element signature="e#295#7434#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/trends.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1723,13 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="95" selection-start-line="54" selection-start-column="95" selection-end-line="54" selection-end-column="95" />
         </state>
       </provider>
     </entry>
@@ -1754,23 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/user_search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
-          <folding>
-            <element signature="e#458#478#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/companies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/watch_single.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1778,30 +652,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/static/plyr/js/ui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/user_search_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
-          <folding>
-            <element signature="e#364#384#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1816,16 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/layouts/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1847">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -1836,79 +680,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/layouts/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="105" selection-start-line="19" selection-start-column="105" selection-end-line="19" selection-end-column="105" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/static/js/google-charts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/layouts/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="680">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/static/js/chart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="299" column="72" lean-forward="true" selection-start-line="299" selection-start-column="72" selection-end-line="299" selection-end-column="72" />
+        <state relative-caret-position="5083">
+          <caret line="299" column="72" selection-start-line="299" selection-start-column="72" selection-end-line="299" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/static/js/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1870">
-          <caret line="110" column="11" lean-forward="true" selection-end-line="110" selection-end-column="11" />
+          <caret line="110" column="11" selection-end-line="110" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/layouts/navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tweepy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/layouts/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/static/js/single_user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="76" selection-end-line="110" selection-end-column="11" />
+        <state relative-caret-position="221">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
           <folding>
             <element signature="e#84#2170#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/views.py">
+    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/layouts/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="136" column="261" selection-start-line="136" selection-start-column="246" selection-end-line="136" selection-end-column="261" />
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="22" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/user_search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="163" selection-start-line="8" selection-start-column="163" selection-end-line="8" selection-end-column="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/user_search_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <element signature="e#794#2374#0#HTML" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/single_user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="532" column="30" selection-start-line="532" selection-start-column="30" selection-end-line="532" selection-end-column="30" />
+        <state relative-caret-position="74">
+          <caret line="196" column="27" selection-start-line="196" selection-start-column="27" selection-end-line="262" selection-end-column="30" />
           <folding>
-            <element signature="e#2957#2977#0#HTML" expanded="true" />
-            <element signature="e#3323#3343#0#HTML" expanded="true" />
-            <element signature="e#3473#3495#0#HTML" expanded="true" />
-            <element signature="e#3702#3724#0#HTML" expanded="true" />
-            <element signature="e#3844#3867#0#HTML" expanded="true" />
-            <element signature="e#4108#4130#0#HTML" expanded="true" />
-            <element signature="e#4299#4321#0#HTML" expanded="true" />
-            <element signature="e#9979#10005#0#HTML" expanded="true" />
-            <element signature="e#10523#10530#1#HTML" expanded="true" />
-            <element signature="e#14943#14950#1#HTML" expanded="true" />
+            <element signature="e#2572#4595#0#HTML" />
+            <element signature="e#8531#13913#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="38" lean-forward="true" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/trends.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="67" lean-forward="true" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/companies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="42" selection-end-column="30" />
+          <folding>
+            <element signature="e#2425#2449#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/single_trend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="47" column="91" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="206" column="39" selection-start-line="206" selection-start-column="39" selection-end-line="206" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/single_place_trend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding>
+            <element signature="e#1152#1199#0#HTML" expanded="true" />
+            <element signature="e#1244#1282#0#HTML" expanded="true" />
+            <element signature="e#1287#1310#0#HTML" expanded="true" />
+            <element signature="e#1501#1521#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

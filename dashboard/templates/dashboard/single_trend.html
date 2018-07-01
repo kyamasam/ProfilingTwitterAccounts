@@ -1,0 +1,144 @@
+{#{% extends 'dashboard/layouts/master.html' %}#}
+{##}
+{#{% block content %}#}
+{##}
+{##}
+{#facebook#}
+{#twitter#}
+{#instagram#}
+{##}
+{##}
+{##}
+{##}
+{#highlight important statements or comments#}
+{##}
+{#work experience   and education#}
+{##}
+{# past illegal behavior#}
+{##}
+{#drug use#}
+{# racist or sexist#}
+{##}
+{##}
+{#personal info#}
+{##}
+{#- location#}
+{# friends#}
+{#family#}
+{##}
+{#marketting#}
+{#    -links shared (file:///C:/Users/samue/Pictures/Screenshots/Screenshot%20(12).png)#}
+{#    Favourite Topics#}
+{##}
+{#photos#}
+{#    metadata:#}
+{#        Photo analysis#}
+{##}
+{##}
+{#maybe check for fraud#}
+{#{% endblock %}#}
+
+{% extends 'dashboard/layouts/master.html' %}
+{% block content %}
+
+
+
+
+        <div class="col-md-12">
+            <h4 class="display-3 offset-4 grid-margin"> Tweets on <span class="text-primary">{{ trend_name }}</span> </h4>
+        </div>
+{#    {{ trend_search }}#}
+
+{#    {% with counter=0 %}#}
+{#        {% for tweet in trend_search %}#}
+{#            <p>{{ tweet  }}</p><br>#}
+{##}
+{#            <h1>{{ counter |add:1 }}</h1>#}
+{#            #}
+{#        {% endfor %}#}
+{#    {% endwith %}#}
+    
+    <div class="card-columns">
+                {% if trend_search %}
+
+                        {% for tweet in trend_search %}
+                            <div class="card ">
+                              <div class="card-body">
+                                  <h4 class="card-title">{{ tweet.user.name  }} {%  if tweet.verified %}<span class="mdi mdi-verified text-primary" style=""> </span> {% else %} {% endif %}</h4>
+
+                                  <p class="card-text">{{ tweet.text }}</p>
+                              <div class="d-flex py-4 border-bottom">
+                                <div class="mr-3 bg-gradient-primary icon-in-bg rounded-circle text-white">
+                                    {% if tweet.source == "Twitter Web Client"  %}
+                                         <i class="mdi mdi-laptop"></i>
+                                    {% elif tweet.source == "Twitter Lite" %}
+                                        <i class="mdi mdi-opera"></i>
+                                    {% elif tweet.source == "Twitter for iPad" %}
+                                          <i class=" mdi mdi-tablet-ipad"></i>
+                                    {% else%}
+                                        <i class="mdi mdi-cellphone-iphone"></i>
+                                    {% endif %}
+                                </div>
+                                <div class="flex-grow-1">
+                                  <h6 class="mb-2">{{ tweet.source }}</h6>
+
+                                  <p class="text-muted mb-0">{{ tweet.source }}</p>
+
+                                </div>
+                              </div>
+
+{#                                  <a href="#" target="_blank" class="bg-gradient-success icon-in-bg rounded-circle text-white " style="margin-left: 44%">#}
+{#                                   <i class="mdi mdi-cellphone"></i>#}
+{#                                </a>#}
+{#                              <div class="mr-3 bg-gradient-success icon-in-bg rounded-circle text-white">#}
+{#                                  <i class="mdi mdi-mouse-off"></i>#}
+{#                                </div>#}
+
+{#                              {% for sth in _json %}#}
+{#                                  {{ sth }}#}
+{#                                  {% endfor %}#}
+
+                                    {% for item in tweet.entities %}
+{#                                            <p>{{ item.0 }}</p>#}
+{#                                        {% for hashtag in hashtags %}#}
+{#                                            {{ hashtag }}#}
+{#                                            {% endfor %}#}
+                                    {% endfor %}
+
+                              </div>
+
+                            </div>
+
+                        {% endfor %}
+
+
+                {% endif %}
+
+
+
+
+            </div>
+
+
+
+
+
+
+{% endblock %}
+
+{% block page_scripts %}
+
+    <script>
+
+
+    </script>
+
+    <script src="/static/js/dashboard.js"></script>
+    <script src="/static/js/single_user.js"></script>
+  <script src="/static/js/chart.js"></script>
+  <script src="/static/js/tabs.js"></script>
+  <script src="/static/js/google-charts.js"></script>
+  <script src="/static/js/modal-demo.js"></script>
+
+
+{% endblock %}

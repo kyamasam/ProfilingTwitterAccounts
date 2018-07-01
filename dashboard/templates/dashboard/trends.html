@@ -2,45 +2,143 @@
 {% block content %}
 
     <div class="col-md-12"><h1 class="offset-3 display-4 d-flex">companies are trending? what products are trending?</h1></div>
-                {% with state=0 %}
-                  {% if state == 1 %}
-                    <div class="col-lg-3 grid-margin stretch-card">
-                      <div class="card">
-                               <img class="card-img-top" src="/static/images/samples/300x300/9.jpg" alt="Card image cap">
-                        <div class="card-body">
-                          <h4 class="card-title">Basic carousel</h4>
-                            <h4 class="card-title">Card title that wraps to a new line</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eaque similique veniam consequatur ipsum.</p>
-                        </div>
-                      </div>
-                    </div>
-                {% else %}
-                    <div class="col-lg-3 grid-margin stretch-card">
-                      <div class="card">
-                        <div class="card-body">
-                          <h4 class="card-title">Basic carousel</h4>
-                              <div class="owl-carousel owl-theme full-width">
-                                <div class="item">
-                                  <img src="/static/images/carousel/banner_12.jpg" alt="image"/>
-                                </div>
-                                <div class="item">
-                                  <img src="/static/images/carousel/banner_2.jpg" alt="image"/>
-                                </div>
-                                <div class="item">
-                                  <img src="/static/images/carousel/banner_1.jpg" alt="image"/>
-                                </div>
-                              </div>
-                            <h4 class="card-title">Card title that wraps to a new line</h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eaque similique veniam consequatur ipsum.</p>
-                        </div>
-                      </div>
-                    </div>
-            {% endif %}
-            {% endwith %}
+
+
+
+{#            <div class="col-md-12 col-lg-12 grid-margin">#}
+{#              <div class="card">#}
+{#                <div class="card-body">#}
+{#                  <h6 class="card-title">Basic Map</h6>#}
+{#                  <div class="map-container">#}
+{#                      <div id="map" class="google-map"></div>#}
+{#                  </div>#}
+{#                </div>#}
+{#              </div>#}
+{#            </div>#}
+
+
+
+    <div class="template-demo">
+        {% with count=0 %}
+                {% for trend_location in trend_locations %}
+                    <a href="/dashboard/single_place_trend/{{trend_location.woeid}}"  class="btn btn-gradient-primary btn-fw mr-3" id="{{trend_location.name}}"> {{trend_location.name}}</a>
+{#                    <p id="{{ trend_location.woeid }}">asda</p>#}
+{#                    <p id="{{ trend_location.name }}long"></p>#}
+                {% endfor %}
+
+
+        {% endwith %}
+    </div>
 
 {% endblock %}
 
 
 {% block page_scripts %}
     <script src="/static/js/owl-carousel.js"></script>
+
+{#    <script>#}
+{##}
+{#      function initMap() {#}
+{#        var map = new google.maps.Map(document.getElementById('map'), {#}
+{#          zoom: 10,#}
+{#          center: {lat: -33.9, lng: 151.2}#}
+{#        });#}
+{##}
+{#        setMarkers(map);#}
+{#      }#}
+{##}
+{#      // Data for the markers consisting of a name, a LatLng and a zIndex for the#}
+{#      // order in which these markers should display on top of each other.#}
+{#      var longitudes=[]#}
+{#      var latitudes=[]#}
+{#      var counter=0;#}
+{#      {% for location in trend_locations %}#}
+{#          var yourUrl="https://maps.googleapis.com/maps/api/geocode/json?address="+location.name+"&key=AIzaSyA0xRTz67wxctfMn380M1Wd_CAkluttXWw";#}
+{#            function Get(yourUrl){#}
+{#                var Httpreq = new XMLHttpRequest(); // a new request#}
+{#                Httpreq.open("GET",yourUrl,false);#}
+{#                Httpreq.send(null);#}
+{#                return Httpreq.responseText;#}
+{#            }#}
+{#            var json_obj = JSON.parse(Get(yourUrl));#}
+{#            latitudes[counter]= json_obj.results[0].geometry.location.lat;#}
+{#            longitudes[counter]= json_obj.results[0].geometry.location.lng;#}
+{#            counter++;#}
+{##}
+{#      {% endfor %}#}
+      {#console.log(latitudes,longitudes)#}
+{#      var beaches = [#}
+{#                ['Bondi Beach', -33.890542, 151.274856, 4],#}
+{#      ];#}
+{#       for (var i = 0; i < longitudes.length; i++) {#}
+           {#var beach = beaches[i];#}
+{#           console.log("sth here" + i);#}
+{#       }#}
+    {#for(i=0;i<latitudes.length;i++){#}
+    {#         beaches.concat(['Bondi Beach', latitudes[i], longitudes[i], 4],)#}
+    {#    }#}
+{#    console.log(beaches);#}
+{#      function setMarkers(map) {#}
+{#        // Adds markers to the map.#}
+{##}
+{#        // Marker sizes are expressed as a Size of X,Y where the origin of the image#}
+{#        // (0,0) is located in the top left of the image.#}
+{##}
+{#        // Origins, anchor positions and coordinates of the marker increase in the X#}
+{#        // direction to the right and in the Y direction down.#}
+{#        var image = {#}
+{#          url: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',#}
+{#          // This marker is 20 pixels wide by 32 pixels high.#}
+{#          size: new google.maps.Size(20, 32),#}
+{#          // The origin for this image is (0, 0).#}
+{#          origin: new google.maps.Point(0, 0),#}
+{#          // The anchor for this image is the base of the flagpole at (0, 32).#}
+{#          anchor: new google.maps.Point(0, 32)#}
+{#        };#}
+{#        // Shapes define the clickable region of the icon. The type defines an HTML#}
+{#        // <area> element 'poly' which traces out a polygon as a series of X,Y points.#}
+{#        // The final coordinate closes the poly by connecting to the first coordinate.#}
+{#        var shape = {#}
+{#          coords: [1, 1, 1, 20, 18, 20, 18, 1],#}
+{#          type: 'poly'#}
+{#        };#}
+{#        console.log(longitudes[1])#}
+{#        for (var i = 0; i < longitudes.length; i++) {#}
+          {#var beach = beaches[i];#}
+{#            console.log("sth here"+latitudes[i]);#}
+{#          var marker = new google.maps.Marker({#}
+{#            position: {lat: latitudes[i], lng: longitudes[i]},#}
+{#            map: map,#}
+{#            icon: image,#}
+{#            shape: shape,#}
+{#            title: "sth",#}
+{#            zIndex: 4#}
+{#          });#}
+{#        }#}
+{#      }#}
+{##}
+{##}
+{#    </script>#}
+<script>
+    {#var yourUrl="https://maps.googleapis.com/maps/api/geocode/json?address=nairobi&key=AIzaSyA0xRTz67wxctfMn380M1Wd_CAkluttXWw"#}
+    {#function Get(yourUrl){#}
+    {#    var Httpreq = new XMLHttpRequest(); // a new request#}
+    {#    Httpreq.open("GET",yourUrl,false);#}
+    {#    Httpreq.send(null);#}
+    {#    return Httpreq.responseText;#}
+    {#}#}
+    {#var json_obj = JSON.parse(Get(yourUrl));#}
+    {#console.log(json_obj.results[0].geometry.location.lat)#}
+    {#console.log(json_obj.results[0].geometry.location.lng)#}
+    </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0xRTz67wxctfMn380M1Wd_CAkluttXWw&libraries=places&callback=initMap"
+        async defer></script>
+
+
+
+{#    <script async defer#}
+{#    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0xRTz67wxctfMn380M1Wd_CAkluttXWw&callback=initMap">#}
+{#    </script>#}
+
 {% endblock %}

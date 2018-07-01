@@ -5,6 +5,9 @@ urlpatterns=[
     url(r'^$', views.index ,name='index'),
 
     url(r'trends/', views.trends, name='trends'),
+    url(r'single_place_trend/(?P<woe_id>\d+)/$', views.single_place_trend, name='single_place_trend'),
+    url(r'single_trend/(?P<trend_name>[\w\-]+)/$', views.single_trend, name='single_trend'),
+    url(r'single_trend/$', views.single_trend, name='single_trend'),
     url(r'user_search/', views.user_search, name='user_search'),
     url(r'user_search_result/$', views.user_search_result, name='user_search_result'),
     url(r'^mentions/$', views.mentions, name='mentions'),

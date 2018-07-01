@@ -94,8 +94,9 @@
                         <div class="card-body">
                           <h4 class="card-title">Sentiment Analysis</h4>
                           <canvas id="user_sentiment_chart" style="height:250px"></canvas>
-                            <h6 class="mr-2"> Conclusion: {{ user_results.screen_name }} is generally a 
-                                {% with negative=posts_count_on_day.0 neutral=posts_count_on_day.1 positive=posts_count_on_day.2  %}
+                            <h6 class="mr-2"> Conclusion: {{ user_results.screen_name }} is generally a
+
+                                {% with negative=polarity_negative neutral=polarity_neutral positive=polarity_positive  %}
 
                                {% if neutral > negative %}
                                         {% if neutral > positive %}
@@ -489,7 +490,7 @@
     (function($) {
   'use strict';
   $(function() {
-       {% with negative=posts_count_on_day.0 neutral=posts_count_on_day.1 positive=posts_count_on_day.2  %}
+       {% with negative=polarity_negative neutral=polarity_neutral positive=polarity_positive  %}
 var colors;
                                {% if neutral > negative %}
                                         {% if neutral > positive %}
@@ -535,7 +536,7 @@ var colors;
             data: [
                 {% for data in polarity_values %}
                         {{ data }},
-                        {% endfor %}
+                {% endfor %}
             ]
         },
 
@@ -590,7 +591,7 @@ var colors;
 
   var doughnutPieData = {
     datasets: [{
-      data: [{{ posts_count_on_day.0 }},{{ posts_count_on_day.1 }}, {{ posts_count_on_day.2 }}],
+      data: [{{ polarity_negative}},{{ polarity_neutral}}, {{ polarity_positive}}],
       backgroundColor: [
         '#ed7879',
         '#cecece',
