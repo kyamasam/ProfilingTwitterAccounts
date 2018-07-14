@@ -29,8 +29,29 @@
                                   <p class="card-text">Location : {{ user_result.location }}</p>
                                   <p class="card-text">Statues : {{ user_result.statuses_count }}</p>
                                   <p class="card-text">{{ user_result.description }}</p>
-                              <a class="btn btn-primary" href="/dashboard/single_user/{{user_result.screen_name}}">View more</a>
+                              <div class="template-demo">
+                                  <a class="btn btn-primary" href="/dashboard/single_user/{{user_result.screen_name}}">View more</a>
+                                  <form method="post" action="/dashboard/watch/">
+                                    {% csrf_token %}
+                                      <input type="text" class="form-control d-none" id="twitter_username" name="twitter_username" value="{{ user_result.screen_name  }}" >
+                                      <input type="text" class="form-control d-none" id="verified" name="verified" value="{%  if user_result.verified %}1{% else %}0{% endif %}">
+                                      <input type="text" class="form-control d-none" id="twitter_profile_pic" name="twitter_profile_pic" value="
+                                            {% with user_result.profile_image_url_https as user_profiles %}
+                                            {{ user_profiles }}
+                                            {% endwith %}
+                                        ">
+                                   </br>
+                                       <button class="btn btn-primary" type="submit">Add To Watch <i class="mdi mdi-eye"></i></button>
+{#                                    {% for user_watch in users_watching %}#}
+{#                                          {% if user_watch == user_result.screen_name %}#}
+{#                                                <button class="btn btn-info" type="submit">Remove to Watch <i class="mdi mdi-eye-off"></i></button>#}
+{#                                          {% else %}#}
+{#                                                <button class="btn btn-primary" type="submit">Add To Watch <i class="mdi mdi-eye"></i></button>#}
+{#                                          {% endif %}#}
+{#                                      {% endfor %}#}
+                                  </form>
 
+                              </div>
                               </div>
 
                             </div>

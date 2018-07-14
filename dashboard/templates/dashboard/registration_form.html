@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% if error_message %}
+    {{ error_message }}
+{% endif %}
+<h3>Create new Account</h3>
+<form class=""  method="post" action="">
+    {% csrf_token %}
+
+    {% include 'dashboard/form-template.html' %}
+
+    <button type="submit">Submit</button>
+
+</form>
+</body>
+</html>

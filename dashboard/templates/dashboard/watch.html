@@ -4,21 +4,36 @@
         <div class="col-md-12">
             <h4 class="display-3 offset-4 grid-margin"> Users Watching </h4>
         </div>
-
+    {% for user in users_watching %}
         <div class="col-lg-3 grid-margin stretch-card">
           <div class="card">
-                   <img class="card-img-top" src="/static/images/samples/300x300/9.jpg" alt="Card image cap">
+                   <img class="card-img-top" src="{{ user.twitter_profile_pic }}" alt="Card image cap">
             <div class="card-body text-center">
-              <h4 class="card-title ">Name </h4>
+              <h4 class="card-title ">{{ user.twitter_username }} {%  if user.verified == True%}<span class="mdi mdi-verified text-primary" style=""> </span> {% else %} {% endif %}</h4>
 {#                <h4 class="card-title">Card title that wraps to a new line</h4>#}
-                <a href="/dashboard/watch/12/" class="btn btn-gradient-primary btn-rounded btn-fw">View More</a>
+{#                <a href="dashboard/single_user/{{ recent_tweet.user.screen_name }}/">{{ recent_tweet.user.name  }}</a> #}
+                <a href="/dashboard/single_user/{{ user.twitter_username }}" class="btn btn-gradient-primary btn-rounded btn-fw">View More</a>
             </div>
           </div>
         </div>
+
+
+
+
+    {% endfor %}
 {% endblock %}
 
 {% block page_scripts %}
+        <script >
+        var images = document.getElementsByClassName('card-img-top');
 
+        for(i=0; i<images.length;i++) {
+            var img_str = images[i].src;
+            var img_res = img_str.replace("_normal", "");
+            document.getElementsByClassName('card-img-top')[i].src = img_res
+        }
+        console.log(res)
+    </script>
    <script src="/static/js/owl-carousel.js"></script>
 
 {% endblock %}

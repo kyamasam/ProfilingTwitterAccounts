@@ -2,9 +2,9 @@
 
 {% block content %}
 
-             <div class="col-md-12"><h1 class="offset-3 display-4 d-flex mb-5">Search for Users</h1></div>
+             <div class="col-md-12"><h1 class="offset-3 display-4 d-flex mb-5">Search for {{ page_type  }}   </h1></div>
                 <div class="col-md-12">
-                    <form action="/dashboard/user_search_result/" method="get" class="form-inline offset-2 mb-5">
+                    <form action="/dashboard/{{ post_action }}/" method="get" class="form-inline offset-2 mb-5">
                          <div class="form-group mx-sm-3 mb-2 ">
                                 <input type="text" name="search_term" style="width:500px;" class="form-control  col-md-12" placeholder="Search" value="{{ term }}">
                          </div>

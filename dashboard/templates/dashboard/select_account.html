@@ -1,0 +1,79 @@
+{% extends 'dashboard/layouts/master.html' %}
+
+{% block content %}
+
+             <div class="col-md-12"><h1 class="offset-3 display-4 d-flex mb-5">Select your Default Account <span class="mr-2"> or</span>
+             <form method="post">
+                    {% csrf_token %}
+
+                      <input type="text" class="form-control d-none" id="twitter_username" name="twitter_username" value="realDonaldTrump" >
+                    <button class="btn btn-primary" type="submit">Let System Select A Default Account</button>
+                </form>
+             </h1></div>
+                <div class="col-md-12">
+                    <form action="/dashboard/change_seach_term/" method="get" class="form-inline offset-2 mb-5">
+                         <div class="form-group mx-sm-3 mb-2 ">
+                                <input type="text" name="search_term" style="width:500px;" class="form-control  col-md-12" placeholder="Search" value="{{ term }}">
+
+                         </div>
+                          <button type="submit" class="btn btn-primary mb-2"><i class="mdi mdi-account-search"></i> </button>
+                     </form>
+                </div>
+            <div class="card-columns">
+                {% if user_results %}
+
+                        {% for user_result in user_results %}
+                            <div class="card ">
+                                {% with user_result.profile_image_url_https as user_profiles %}
+                                      <img class="card-img-top" src="{{ user_profiles }}" alt="Card image cap">
+                                {% endwith %}
+
+                              <div class="card-body">
+                                  <h4 class="card-title">{{ user_result.screen_name  }} {%  if user_result.verified %}<span class="mdi mdi-verified text-primary" style=""> </span> {% else %} {% endif %}</h4>
+                                  <p class="card-text">Followers : {{ user_result.followers_count }}</p>
+                                  <p class="card-text">Following : {{ user_result.friends_count }}</p>
+                                  <p class="card-text">Lists : {{ user_result.listed_count }}</p>
+                                  <p class="card-text">Location : {{ user_result.location }}</p>
+                                  <p class="card-text">Statues : {{ user_result.statuses_count }}</p>
+                                  <p class="card-text">{{ user_result.description }}</p>
+{#                              <a class="btn btn-primary" target="_blank" href="/dashboard/single_user/{{user_result.screen_name}}">View more</a>#}
+                              <form method="post" action="/dashboard/">
+                                {% csrf_token %}
+                                  <input type="text" class="form-control d-none" id="twitter_username" name="twitter_username" value="{{ user_result.screen_name  }}" >
+                                <button class="btn btn-primary" type="submit">Select Account</button>
+                            </form>
+
+
+                              </div>
+
+                            </div>
+
+                        {% endfor %}
+
+
+
+                {% endif %}
+
+
+
+
+            </div>
+
+
+
+{% endblock %}
+
+
+{% block page_scripts %}
+    <script >
+        var images = document.getElementsByClassName('card-img-top');
+
+        for(i=0; i<images.length;i++) {
+            var img_str = images[i].src;
+            var img_res = img_str.replace("_normal", "");
+            document.getElementsByClassName('card-img-top')[i].src = img_res
+        }
+        console.log(res)
+    </script>
+    <script src="/static/js/owl-carousel.js"></script>
+{% endblock %}

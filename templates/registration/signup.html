@@ -1,0 +1,54 @@
+{% extends 'registration/accounts_template.html' %}
+
+{% block title %}
+        Register
+     {% endblock %}
+
+{% block content %}
+{% load widget_tweaks %}
+
+  <form method="post">
+    {% csrf_token %}
+    {% for field in form %}
+
+
+                <div class="form-group">
+                    <label for="">{{ field.label_tag }}</label>
+                        <div class="input-group">
+                        <div class="input-group-prepend bg-transparent">
+                          <span class="input-group-text bg-transparent border-right-0">
+                            <i class="mdi mdi-lock-outline text-primary"></i>
+                          </span>
+                        </div>
+
+
+
+
+                    {% if field.errors  %}
+
+
+
+                            {{ field|add_class:'form-control form-control-lg border-left-0' }}
+                        <label id="password-error" class="error mt-2 text-danger col-12" for="password">
+                             {{ field.errors|escape  }}</label>
+                        {% if field.help_text %}
+                             <small id="passwordHelpBlock" class="form-text text-muted">{{ field.help_text|safe }}</small>
+                        {% endif %}
+                    {% else %}
+
+                    {{ field|add_class:'form-control form-control-lg border-left-0' }}
+                    {% endif %}
+                    </div>
+                </div>
+    {% endfor %}
+        <div class="mb-4">
+                  <div class="form-check">
+                    <label class="form-check-label text-muted">
+                      <input type="checkbox" class="form-check-input" required>
+                      I agree to all Terms &amp; Conditions
+                    <i class="input-helper"></i></label>
+                  </div>
+    </div>
+    <button type="submit" class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn">Sign up</button>
+  </form>
+{% endblock %}

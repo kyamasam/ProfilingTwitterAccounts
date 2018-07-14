@@ -1,10 +1,10 @@
 <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo" href="index.html">
+        <a class="navbar-brand brand-logo" href="{% url 'spider_dashboard' %}">
 
             Social Spid<img src="/static/images/spider.png" style="width:50px;" alt="logo"/>r
         </a>
-        <a class="navbar-brand brand-logo-mini" href="index.html">
+        <a class="navbar-brand brand-logo-mini" href="{% url 'spider_dashboard' %}">
 {#            <img src="/static/images/logo-mini.svg" alt="logo"/>#}
                         Social Spider
         </a>
@@ -23,12 +23,18 @@
           <li class="nav-item nav-profile">
             <a class="nav-link">
               <div class="nav-profile-text">
-                <p class="mb-0">Samuel kyama</p>
+                  {% if user.is_authenticated %}
+                <p class="mb-0">{{ user.get_username }}</p>
+
+                  {% else %}
+
+                      <a href="/accounts/login" class="mb-0">Login</a>
+                  {% endif %}
               </div>
-              <div class="nav-profile-img">
-                <img src="/static/images/faces/face7.jpg" alt="image">
-                <span class="availability-status online"></span>
-              </div>
+{#              <div class="nav-profile-img">#}
+{#                <img src="/static/images/faces/face7.jpg" alt="image">#}
+{#                <span class="availability-status online"></span>#}
+{#              </div>#}
             </a>
           </li>
           <li class="nav-item dropdown">
@@ -132,7 +138,7 @@
             </div>
           </li>
           <li class="nav-item nav-logout d-none d-lg-block">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="/accounts/logout/">
               Logout
               <i class="mdi mdi-power"></i>
             </a>

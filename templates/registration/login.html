@@ -1,0 +1,56 @@
+{% extends 'registration/accounts_template.html' %}
+{% block title %}
+        Login
+     {% endblock %}
+{% block content %}
+
+
+
+{% load widget_tweaks %}
+
+  <form method="post" class="pt-3">
+    {% csrf_token %}
+      {% for field in form %}
+
+          <div class="form-group">
+              <label for="">{{ field.label_tag }}</label>
+                <div class="input-group">
+                    {% if field.help_text %}
+                      <small style="color: grey">{{ field.help_text }}</small>
+                    {% endif %}
+                    {% for error in field.errors %}
+                      <p style="color: red">{{ error }}</p>
+                    {% endfor %}
+
+
+
+
+
+                    {% if field.label_tag == 'password' %}
+                        <div class="input-group-prepend bg-transparent">
+                          <span class="input-group-text bg-transparent border-right-0">
+                            <i class="mdi mdi-lock-outline text-primary"></i>
+                          </span>
+                        </div>
+                    {% else %}
+                        <div class="input-group-prepend bg-transparent">
+                          <span class="input-group-text bg-transparent border-right-0">
+                            <i class="mdi mdi-account-outline text-primary"></i>
+                          </span>
+                        </div>
+
+                    {% endif %}
+
+                    {{ field|add_class:'form-control form-control-lg border-left-0' }}
+{#                {% render_field form.first_name class="form-control" %}#}
+
+                </div>
+          </div>
+
+    {% endfor %}
+
+    <button class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn" type="submit">Login</button>
+  <a href="{% url 'social:begin' 'twitter' %}">Login with Twitter</a>
+  </form>
+
+{% endblock %}

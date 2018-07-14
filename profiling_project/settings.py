@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+from . config import *
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +26,7 @@ SECRET_KEY = '409(bzjgufp*rc5$4vmyyq4aw7p6z(%uscf*r63jvubg0*45s9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ 'socialspider.com','localhost' , '127.0.0.1']
 
 
 # Application definition
@@ -38,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'social_django',
+
+    'widget_tweaks'
 ]
 
 MIDDLEWARE = [
@@ -48,6 +52,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+
+    'social_django.middleware.SocialAuthExceptionMiddleware',
 ]
 
 ROOT_URLCONF = 'profiling_project.urls'
@@ -64,14 +71,29 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
+                'social_django.context_processors.backends',  # <--
+                'social_django.context_processors.login_redirect', # <--
             ],
         },
     },
 ]
+AUTHENTICATION_BACKENDS = (
+
+    'social_core.backends.facebook.FacebookOAuth2',
+    'social_core.backends.twitter.TwitterOAuth',
+
+    'django.contrib.auth.backends.ModelBackend',
+)
 
 WSGI_APPLICATION = 'profiling_project.wsgi.application'
+#
+# SOCIAL_AUTH_TWITTER_KEY ='D9uo7DsldmnR5sTzye7sZhZ4t'
+# SOCIAL_AUTH_TWITTER_SECRET  = 'CIuY6EL9R1CwklncVsWaIjAoUYAWH9LxSfCpMt61M2G8R9vo4a'
 
 
+#redirect user to the dashboard
+LOGIN_REDIRECT_URL = '/dashboard/'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
@@ -132,15 +154,15 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 
-# STATIC_URL = '/static/'
+STATIC_URL = '/static/'
 
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static_cdn"),
-    #'/var/www/static/',
-]
-
-STATIC_URL= os.path.join(BASE_DIR, "/static/")
-
-# PROJECT_ROOT = os.path.dirname(os.path.abspath())
+#
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, "static"),
+#     #'/var/www/static/',
+# ]
+#
+# STATIC_URL= os.path.join(BASE_DIR, "/static_cdn/")
+#
+# # PROJECT_ROOT = os.path.dirname(os.path.abspath())
 STATIC_ROOT = os.path.join(".", 'static')

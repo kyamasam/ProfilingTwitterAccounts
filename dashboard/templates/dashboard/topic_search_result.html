@@ -1,0 +1,118 @@
+{% extends 'dashboard/layouts/master.html' %}
+
+{% block content %}
+
+             <div class="col-md-12"><h1 class="offset-3 display-4 d-flex mb-5">Search Result for "{{ term }}"</h1></div>
+                <div class="col-md-12">
+                    <form action="/dashboard/user_search_result/" method="get" class="form-inline offset-2 mb-5">
+                         <div class="form-group mx-sm-3 mb-2 ">
+                                <input type="text" name="search_term" style="width:500px;" class="form-control  col-md-12" placeholder="Search" value="{{ term }}">
+
+                         </div>
+                          <button type="submit" class="btn btn-primary mb-2"><i class="mdi mdi-account-search"></i> </button>
+                     </form>
+                </div>
+            <div class="card-columns">
+                {% if recent_tweets %}
+
+                                        {% for recent_tweet in recent_tweets %}
+                                            <div class="card ">
+                                                    {% for media in recent_tweet.extended_entities.media %}
+                                                        {% if media.type == 'video' %}
+                                                             <img class="card-img-top" src="{{ media.media_url_https }}" alt="Card image cap">
+
+                                                             <!-- Modal starts -->
+                                                             <div class="text-center mt-3">
+                                                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#{{ recent_tweet.id }}">Click To Play Video<i class="mdi mdi-play-circle ml-1"></i></button>
+                                                              </div>
+
+                                                          <div class="modal fade" id="{{recent_tweet.id }}" tabindex="-1" role="dialog" aria-labelledby="{{recent_tweet.id }}Label-2" aria-hidden="true">
+                                                            <div class="modal-dialog" role="document">
+                                                              <div class="modal-content" style="width:fit-content;">
+                                                                <div class="modal-header">
+                                                                  <h5 class="modal-title " id="{{recent_tweet.id }}" style="">Video</h5>
+                                                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="pause_video('player_{{recent_tweet.id}}')">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                  </button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <video poster="{{ video.media_url_https }}" id="player_{{recent_tweet.id }}" playsinline class="{{recent_tweet.id}}" controls>
+
+                                                                       {% with counter=0 %}
+                                                                           {% for video in media.video_info.variants  %}
+
+                                                                                {% if counter == 0 %}
+                                                                                    <source src="{{ video.url }}" type="{{ video.content_type }}">
+                                                                                {% endif %}
+                                                                             {{ counter|add:"1" }}
+
+                                                                        {% endfor %}
+                                                                    {% endwith %}
+
+                                                                    </video>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <!-- Modal Ends -->
+
+
+                                                        {% else  %}
+                                                            <img class="card-img-top" src="{{ media.media_url_https }}" alt="Card image cap">
+                                                        {% endif %}
+                                                    {% endfor %}
+
+                                              <div class="card-body">
+                                                  <h4 class="card-title"><a href="dashboard/single_user/{{ recent_tweet.user.screen_name }}/">{{ recent_tweet.user.name  }}</a>  {%  if tweet.verified %}<span class="mdi mdi-verified text-primary" style=""> </span> {% else %} {% endif %}</h4>
+                                                  <p class="card-text">Retweeted By : {{ recent_tweet.retweet_count }}</p>
+                                                  <p class="card-text">Liked by : {{ recent_tweet.favorite_count }}</p>
+{#                                                  <p class="card-text">Lists : {{ recent_tweet.listed_count }}</p>#}
+                                                  <p class="card-text">Location : {{ recent_tweet.location }}</p>
+                                                  <p class="card-text">Posts : {{ recent_tweet.statuses_count }}</p>
+                                                  <p class="card-text">{{ recent_tweet.text }}</p>
+{#                                                  <p class="card-text">Hastags{{ recent_tweet.entities }}</p>#}
+                                                    {% if recent_tweet.entities.user_mentions %}
+                                                        {% for entity in  recent_tweet.entities.user_mentions %}
+                                                            <a  class="" href="dashboard/single_user/{{ entity.screen_name }}/"> @{{ entity.screen_name }}</a>
+                                                        {% endfor %}
+                                                    {% endif %}
+                                                      {% if  recent_tweet.entities.hashtags%}
+
+                                                          <p></p><br>
+
+                                                          {% for entity in  recent_tweet.entities.hashtags %}
+                                                                 <label class="badge badge-outline-success">#{{ entity.text }} </label>
+                                                          {% endfor %}
+                                                      {% endif %}
+                                                  <p class="card-text">Created at{{ recent_tweet.created_at }}</p>
+                                              </div>
+                                            </div>
+
+                                        {% endfor %}
+
+                                {% else %}
+                                    <h3>No result were found</h3>
+                                {% endif %}
+
+
+
+            </div>
+
+
+
+{% endblock %}
+
+
+{% block page_scripts %}
+    <script >
+        var images = document.getElementsByClassName('card-img-top');
+
+        for(i=0; i<images.length;i++) {
+            var img_str = images[i].src;
+            var img_res = img_str.replace("_normal", "");
+            document.getElementsByClassName('card-img-top')[i].src = img_res
+        }
+        console.log(res)
+    </script>
+    <script src="/static/js/owl-carousel.js"></script>
+{% endblock %}
