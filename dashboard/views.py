@@ -15,6 +15,8 @@ import calendar
 
 from textblob import TextBlob
 import requests
+from django.contrib import messages
+
 
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
@@ -231,6 +233,7 @@ def user_search_result(request):
 @login_required
 def topic_search(request):
     context={'page_title':'Topic search', 'page_type':'Topics','post_action':'topic_search_result'}
+    messages.success(request, 'Results returned successfully')  # <-
     return render(request, 'dashboard/user_search.html',context)
 
 # return search result
@@ -241,7 +244,9 @@ def topic_search_result(request):
     recent_tweets = api.search(q=term,since="",rpp=100)
     if term == '':
         message = 'You submitted an empty form.'
+        messages.warning(request, 'Please correct the errors below')  # <-
     else:
+        messages.success(request, 'Results returned')  # <-
         message = term
 
     context = {'page_title': 'user search results', 'term': term, 'message': message, 'recent_tweets': recent_tweets}

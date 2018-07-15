@@ -2,6 +2,8 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 from django.contrib.auth import login, authenticate
 from django.shortcuts import render, redirect
+from django.contrib import messages
+
 
 
 
@@ -16,9 +18,12 @@ def signup(request):
             raw_password = form.cleaned_data.get('password1')
             user = authenticate(username=username, password=raw_password)
             login(request, user)
+            messages.success(request, 'Your password was updated successfully!')  # <-
+
             return redirect('/dashboard')
     else:
         form = SignUpForm()
+        messages.warning(request, 'Please correct the errors below')  # <-
     return render(request, 'registration/signup.html', {'form': form})
 
 
