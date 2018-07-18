@@ -28791,7 +28791,7 @@ div.tagsinput span.tag a {
 }
 
 .auth .register-half-bg {
-  background: url("../images/auth/register-bg.jpg");
+  background: url("../../dashboard/static/images/auth/register-bg.jpg");
   background-size: cover;
 }
 
