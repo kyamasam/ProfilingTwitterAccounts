@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '409(bzjgufp*rc5$4vmyyq4aw7p6z(%uscf*r63jvubg0*45s9'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -91,8 +91,8 @@ AUTHENTICATION_BACKENDS = (
 
 WSGI_APPLICATION = 'profiling_project.wsgi.application'
 #
-# SOCIAL_AUTH_TWITTER_KEY ='D9uo7DsldmnR5sTzye7sZhZ4t'
-# SOCIAL_AUTH_TWITTER_SECRET  = 'CIuY6EL9R1CwklncVsWaIjAoUYAWH9LxSfCpMt61M2G8R9vo4a'
+# SOCIAL_AUTH_TWITTER_KEY =''
+# SOCIAL_AUTH_TWITTER_SECRET  = ''
 
 
 #redirect user to the dashboard
